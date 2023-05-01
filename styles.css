@@ -6,19 +6,12 @@
   box-sizing: border-box;
 }
 
-body {
-  background-image: url(./images/header-shapes\ mobile.png);
-  background-repeat: no-repeat;
-  background-position: 100%;
-  background-size: contain;
-}
-
 html {
   font-family: 'poppins', sans-serif;
   font-size: 16px;
 }
 
-header {
+nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -41,9 +34,16 @@ header {
   font-weight: 700;
 }
 
-section {
+section#intro {
+  background-image: url(images/header-shapes\ mobile.png);
+  background-size: cover;
   padding: 2rem;
+  margin: auto;
   max-width: 378px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 section p {
@@ -62,12 +62,14 @@ section h4 {
   color: #6070ff;
 }
 
-section article h2 {
+section article h1 {
+  padding-top: 3.5rem;
   font-size: 40px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
+  color: #172b4d;
 }
 
 section ul {
@@ -90,15 +92,7 @@ section ul li:first-child {
 }
 
 @media (min-width: 378px) {
-  .container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-
-  #intro {
+  section#intro {
     max-width: 70%;
   }
 }
