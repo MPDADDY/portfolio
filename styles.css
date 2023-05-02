@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'poppins', sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.logo a {
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.humberger i {
+  color: #6070ff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+section#intro {
+  background-image: url(images/header-shapes\ mobile.png);
+  background-size: contain;
+  padding: 2rem;
+  margin: auto;
+  max-width: 378px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+section p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+section h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #6070ff;
+}
+
+section article h1 {
+  padding-top: 3.5rem;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
+}
+
+section ul li {
+  padding: 1rem 1.2rem;
+  font-size: 27px;
+}
+
+section ul li:first-child {
+  padding-left: 0;
+}
+
+.social {
+  color: #505f79;
+  font-size: 27px;
+}
+
+@media (min-width: 378px) {
+  section#intro {
+    max-width: 70%;
+    background-image: none;
+  }
+}
