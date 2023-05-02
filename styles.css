@@ -11,7 +11,7 @@ html {
   font-size: 16px;
 }
 
-nav {
+header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,7 +36,7 @@ nav {
 
 section#intro {
   background-image: url(images/header-shapes\ mobile.png);
-  background-size: cover;
+  background-size: contain;
   padding: 2rem;
   margin: auto;
   max-width: 378px;
@@ -94,5 +94,6 @@ section ul li:first-child {
 @media (min-width: 378px) {
   section#intro {
     max-width: 70%;
+    background-image: none;
   }
 }
