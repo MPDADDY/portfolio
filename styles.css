@@ -212,8 +212,12 @@ section .canopy ul li {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border-radius: 16px;
+  border-radius: 16px  40px 16px 16px;
   margin: auto;
+}
+
+.marginright {
+  margin-right: 4rem;
 }
 
 .getresume a,
@@ -290,6 +294,11 @@ section .canopy ul li {
   background: #f7f7f9;
   border-radius: 8px;
   margin: 20px 0;
+}
+
+.langcontainer {
+  display: grid;
+  grid-template-columns: auto;
 }
 
 .gridcolumn {
