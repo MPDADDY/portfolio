@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="logo">
             <a href="index.html">My Logo</a>
         </div>
@@ -27,7 +27,7 @@
         </div>
         </nav>
     </header>
-        <section id="intro">
+        <section class="intro">
             <article>
                 <h1>I'm Anold. Glad to see you</h1>
             </article>
@@ -58,8 +58,8 @@
                 </li>
             </ul>
         </section>
-        <section id="intro2" class="sections">
-            <article>
+        <section class="work_section">
+            <article class="sections">
                 <div class="scrnshot">
                     <img src="images/Snapshoot Portfolio (2).png" alt="">
                 </div>
@@ -91,9 +91,7 @@
                     </div>
                 </div>
             </article>
-        </section>
-        <section id="intro2" class="sections">
-            <article>
+            <article class="sections">
                 <div class="scrnshot">
                     <img src="images/Snapshoot Portfolio (1).png" alt="">
                 </div>
@@ -125,9 +123,7 @@
                     </div>
                 </div>
             </article>
-        </section>
-        <section id="intro2" class="sections">
-            <article>
+            <article class="sections">
                 <div class="scrnshot">
                     <img src="images/Snapshoot Portfolio.png" alt="">
                 </div>
@@ -159,9 +155,7 @@
                     </div>
                 </div>
             </article>
-        </section>
-        <section id="intro2" class="sections">
-            <article>
+            <article class="sections">
                 <div class="scrnshot">
                     <img src="images/Snapshoot Portfolio (3).png" alt="">
                 </div>
@@ -194,7 +188,7 @@
                 </div>
             </article>
         </section>
-        <section id="aboutme" class="sections">
+        <section id="aboutme">
             <article>
                 <h1>About Myself</h1>
             </article>
@@ -228,12 +222,12 @@
                 <a title="get my resume" href="#">Get my resume</a>
             </div>
             <article id="what_i_do">
-                <div>
-                    <div class="headlang">
+              <ul class="gridcolumn">
+                <li>
+                    <div class="headlang marginleft">
                         <h5>Languages</h5>
                         <i class="fa fa-angle-down fontarrows"></i>
                     </div>
-                    <!--languages container-->
                     <div class="langcontainer">
                         <div class="langgrid">
                             <img src="images/Ellipse 1.png" alt="">
@@ -248,18 +242,23 @@
                             <p>CSS</p>
                         </div>
                     </div>
-                </div>
-                <div class="headlang padd_bordder_bottom">
-                    <h5>Frameworks</h5>
-                    <i class="fa fa-angle-right fontarrows"></i>
-                </div>
-                <div  class="headlang padd_bordder_bottom">
-                    <h5>Skills</h5>
-                    <i class="fa fa-angle-right fontarrows"></i>
-                </div>
+                </li>
+                <li>
+                    <div class="headlang">
+                        <h5>Frameworks</h5>
+                        <i class="fa fa-angle-down fontarrows"></i>
+                    </div>
+                </li>
+                <li>
+                    <div class="headlang">
+                        <h5>Skills</h5>
+                        <i class="fa fa-angle-down fontarrows"></i>
+                    </div>
+                </li>
+              </ul>
             </article>
         </section>
-    
+
 </body>
 
 </html>

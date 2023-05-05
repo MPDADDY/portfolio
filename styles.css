@@ -11,7 +11,12 @@ html {
   font-size: 16px;
 }
 
-header {
+body {
+  background: #e5e5e5;
+}
+
+.header {
+  background-color: white;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,19 +39,48 @@ header {
   font-weight: 700;
 }
 
-section#intro {
+.intro {
+  background-color: white;
   background-image: url(images/header-shapes\ mobile.png);
-  background-size: contain;
   padding: 2rem;
   margin: auto;
+  border-bottom-left-radius: 10%;
   max-width: 378px;
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: 100%;
+  margin-bottom: 3rem;
   display: flex;
   flex-direction: column;
 }
 
-section p {
+.work_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0.2rem;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+.img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  padding: 1rem;
+  max-width: 378px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+/* general styling */
+article p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -54,7 +88,7 @@ section p {
   color: #344563;
 }
 
-section h4 {
+article h4 {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -89,14 +123,6 @@ section ul li:first-child {
 .social {
   color: #505f79;
   font-size: 27px;
-}
-
-.sections {
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  padding: 2rem;
-  max-width: 378px;
 }
 
 .colorh4 {
@@ -176,12 +202,18 @@ section .canopy ul li {
   color: #396df2;
   background: #fff;
   border-radius: 16px;
+  margin-bottom: 3rem;
 }
 
 #aboutme {
+  width: 378px;
+  max-width: 378px;
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  border-radius: 16px;
+  margin: auto;
 }
 
 .getresume a,
@@ -203,6 +235,10 @@ section .canopy ul li {
 
 #what_i_do {
   margin-top: 3rem;
+}
+
+.marginleft {
+  margin: 20px;
 }
 
 #what_i_do h5 {
@@ -230,10 +266,14 @@ section .canopy ul li {
 .headlang {
   display: grid;
   grid-template-columns: 3fr 1fr;
-  max-width: 375px;
+  max-width: 378px;
   align-items: center;
   padding: 14px 0;
   margin-bottom: 2rem;
+}
+
+.headlang ~ * {
+  margin-left: 0;
 }
 
 .padd_bordder_bottom {
@@ -252,14 +292,40 @@ section .canopy ul li {
   margin: 20px 0;
 }
 
+.gridcolumn {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+/* grid */
+
+.grid1 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 378px;
+}
+
 @media (min-width: 378px) {
-  section#intro,
-  #aboutme {
-    max-width: 70%;
+  .intro {
+    margin-top: 3rem;
+    width: 90%;
+    max-width: 90%;
     background-image: none;
   }
 
+  .work_section,
   .sections {
-    max-width: 70%;
+    width: 99%;
+    max-width: 99%;
+  }
+
+  img {
+    width: 100%;
+    max-width: 377px;
+  }
+
+  #aboutme {
+    width: 90%;
+    max-width: 90%;
   }
 }
