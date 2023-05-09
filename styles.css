@@ -208,7 +208,6 @@ section .canopy ul li {
 #aboutme {
   width: 378px;
   max-width: 378px;
-  padding: 2rem;
   display: flex;
   flex-direction: column;
   background-color: #fff;
@@ -239,6 +238,10 @@ section .canopy ul li {
 
 #what_i_do {
   margin-top: 3rem;
+}
+
+.padding {
+  padding: 2rem;
 }
 
 .marginleft {
@@ -287,14 +290,16 @@ section .canopy ul li {
 
 .langgrid {
   display: grid;
-  align-items: center;
   grid-template-columns: 1fr 3fr;
-  width: 303px;
-  height: 66.72px;
+  /justify-content: baseline;
+  align-items: left;
   background: #f7f7f9;
+  margin-top: 10px;
   border-radius: 8px;
-  margin: 20px 0;
+  width: 303px;
+  height: 66.72px; 
 }
+
 
 .langcontainer {
   display: grid;
@@ -311,6 +316,108 @@ section .canopy ul li {
   grid-template-columns: 3fr 1fr;
   max-width: 378px;
 }
+
+/*footer section*/
+footer {
+  background-image: url(images/Contact\ me.jpg);
+  background-repeat: no-repeat;
+  max-width: 375px;
+  padding-left: 2px;
+  height: 779px;
+  border-top-left-radius: 70px;
+
+}
+
+.footer {
+  background-image: url(images/footer\ shapes.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.footer h2 {
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+padding-top: 7rem;
+}
+
+.footer p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color:rgba(235, 235, 255, 1);
+  text-align: center;
+  width: 327px;
+  margin: auto;
+  padding-top: 5px
+}
+
+.form-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+} 
+
+.form-container li {
+  width: 100%;
+  margin: auto;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  box-sizing: border-box;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgba(23, 43, 77, 1);
+  border-radius: 8px;
+  width: 100%;
+  margin: auto;
+  padding: 8px 12px;
+  outline: none;
+  font-size: 17px;
+  line-height: 20px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+}
+
+input[type=text] {
+  margin-left: 1rem;
+  width: 95%;
+}
+
+textarea {
+  height: 170px;
+}
+
+.submitform {
+  padding: 8px 12px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  line-height: 24px;
+  font-weight: 500;
+  font-size: 17px;
+  font-family: 'Poppins';
+  color: rgba(96, 112, 255, 1);
+}
+
+.divider {
+  height: 3px;
+  width: 33%;
+  margin-top: 6%;
+  background-color: #0e0f0f;
+  border-radius: 10px;
+  margin-left: 33%;
+  margin-bottom: 1%;
+}
+  
 
 @media (min-width: 378px) {
   .intro {
