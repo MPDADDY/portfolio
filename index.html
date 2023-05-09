@@ -189,9 +189,8 @@
         </article>
     </section>
     <section id="aboutme">
-        <article>
+    <article class="padding">
             <h1>About Myself</h1>
-        </article>
         <p>I'm a software developer! I can help you build a product , feature or website Look through some of my work
             and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.
         </p>
@@ -221,7 +220,8 @@
         <div class="getresume">
             <a title="get my resume" href="#">Get my resume</a>
         </div>
-        <article id="what_i_do">
+    </article>
+        <article id="what_i_do" class="padding">
             <ul class="gridcolumn">
                 <li>
                     <ul>
@@ -232,15 +232,15 @@
                     </ul>
                     <ul class="langcontainer">
                         <li class="langgrid">
-                            <img src="images/Ellipse 1.png" alt="">
+                            <div class="javap"><img src="images/Ellipse 1.png" alt=""></div>
                             <p>javascript</p>
                         </li>
                         <li class="langgrid">
-                            <img src="images/Ellipse 1 (1).png" alt="">
+                            <div class="htmlp"><img src="images/Ellipse 1 (1).png" alt=""></div>
                             <p>HTML</p>
                         </li>
                         <li class="langgrid">
-                            <img src="images/Ellipse 1 (2).png" alt="">
+                           <div class="cssp"><img src="images/Ellipse 1 (2).png" alt=""></div>
                             <p>CSS</p>
                         </li>
                     </ul>
@@ -255,32 +255,35 @@
                 </li>
             </ul>
         </article>
+        <footer>
+            <section class="footer">
+              <h2>Contact me</h2>
+              <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
+                I'd love to help with it.
+              </p>
+              <form action="https://formspree.io/f/{form_id}" method="post">
+                <ul class="form-container">
+                 <li>
+                     <label for="name">
+                         <input id="name"  maxlength="30" placeholder="Lorem ipsum" type="text" value="Lorem ipsum" required>
+                     </label>
+                 </li>
+                 <li>
+                     <label for="email">
+                         <input id="email"  type="email" placeholder="loremipsum@gmail.com" value="loremipsum@gmail.com" required>
+                     </label>
+                 </li><!-- 
+                 --><li>
+                     <textarea name="comments" id="comments" cols="30" rows="10" placeholder="write your message here..." required></textarea>
+                 </li>
+                 <li>
+                     <button type="submit" id="submit"  class="submitform">Get in touch</button>
+                 </li>
+                </ul>
+                <div class="divider"></div>
+             </form>
+            </section>
+        </footer>
     </section>
-    <footer>
-        <section>
-          <h2>Contact me</h2>
-          <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
-            I'd love to help with it.
-          </p>
-          <ul>
-            <li>
-                <label for="name">
-                    <input type="text" id="name" maxlength="30" placeholder="lorem ipsum" value="loremipsum" required>
-                </label>
-            </li>
-            <li>
-                <label for="email">
-                    <input id="email" type="email" placeholder="loremipsum@gmail.com" value="loremipsum@gmail.com" required>
-                </label>
-            </li>
-            <li>
-                <textarea name="textarea" id="message" cols="30" rows="10" placeholder="write your comments here"></textarea>
-            </li>
-            <li>
-                <button type="submit">Get in touch</button>
-            </li>
-          </ul>
-        </section>
-    </footer>
 </body>
 </html>
