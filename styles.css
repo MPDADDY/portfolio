@@ -212,7 +212,7 @@ section .canopy ul li {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  border-radius: 16px  40px 16px 16px;
+  border-radius: 16px 40px 16px 16px;
   margin: auto;
 }
 
@@ -276,13 +276,13 @@ section .canopy ul li {
   margin-bottom: 2rem;
 }
 
-.headlang ~ * {
+.headlang * {
   margin-left: 0;
 }
 
 .padd_bordder_bottom {
   padding: 14px 0;
-  border-bottom: 1px solid  #efe1e6;
+  border-bottom: 1px solid #efe1e6;
 }
 
 .langgrid {
@@ -305,8 +305,6 @@ section .canopy ul li {
   display: grid;
   grid-template-columns: auto;
 }
-
-/* grid */
 
 .grid1 {
   display: grid;
