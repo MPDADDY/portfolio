@@ -7,7 +7,6 @@
 }
 
 html {
-  font-family: 'poppins', sans-serif;
   font-size: 16px;
 }
 
@@ -291,15 +290,14 @@ section .canopy ul li {
 .langgrid {
   display: grid;
   grid-template-columns: 1fr 3fr;
-  /justify-content: baseline;
+  justify-content: baseline;
   align-items: left;
   background: #f7f7f9;
   margin-top: 10px;
   border-radius: 8px;
   width: 303px;
-  height: 66.72px; 
+  height: 66.72px;
 }
-
 
 .langcontainer {
   display: grid;
@@ -317,7 +315,7 @@ section .canopy ul li {
   max-width: 378px;
 }
 
-/*footer section*/
+/* footer section */
 footer {
   background-image: url(images/Contact\ me.jpg);
   background-repeat: no-repeat;
@@ -325,7 +323,6 @@ footer {
   padding-left: 2px;
   height: 779px;
   border-top-left-radius: 70px;
-
 }
 
 .footer {
@@ -336,36 +333,34 @@ footer {
 }
 
 .footer h2 {
-font-size: 40px;
-font-weight: 700;
-line-height: 52px;
-letter-spacing: 0em;
-text-align: center;
-color: rgba(255, 255, 255, 1);
-padding-top: 7rem;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  padding-top: 7rem;
 }
 
 .footer p {
-  font-family: Poppins;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color:rgba(235, 235, 255, 1);
-  text-align: center;
+  color: rgba(235, 235, 255, 1);
   width: 327px;
   margin: auto;
-  padding-top: 5px
+  padding-top: 5px;
 }
 
-.form-container {
+ul.form-container {
   flex-direction: column;
   display: flex;
   align-items: center;
-} 
+}
 
-.form-container li {
+.li {
   width: 100%;
   margin: auto;
 }
@@ -404,7 +399,6 @@ textarea {
   line-height: 24px;
   font-weight: 500;
   font-size: 17px;
-  font-family: 'Poppins';
   color: rgba(96, 112, 255, 1);
 }
 
@@ -417,7 +411,6 @@ textarea {
   margin-left: 33%;
   margin-bottom: 1%;
 }
-  
 
 @media (min-width: 378px) {
   .intro {
