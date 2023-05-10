@@ -4,10 +4,12 @@
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
+  transition: 300ms;
 }
 
 html {
   font-size: 16px;
+  font-family: "poppins", sans-serif;
 }
 
 body {
@@ -204,14 +206,15 @@ section .canopy ul li {
   margin-bottom: 3rem;
 }
 
+/* about me */
+
 #aboutme {
-  width: 378px;
-  max-width: 378px;
   display: flex;
   flex-direction: column;
   background-color: #fff;
   border-radius: 16px 40px 16px 16px;
   margin: auto;
+  width: 100%;
 }
 
 .marginright {
@@ -243,10 +246,6 @@ section .canopy ul li {
   padding: 2rem;
 }
 
-.marginleft {
-  margin: 20px;
-}
-
 #what_i_do h5 {
   font-weight: 500;
   font-size: 20px;
@@ -269,15 +268,6 @@ section .canopy ul li {
   cursor: pointer;
 }
 
-.headlang {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  max-width: 378px;
-  align-items: center;
-  padding: 14px 0;
-  margin-bottom: 2rem;
-}
-
 .headlang * {
   margin-left: 0;
 }
@@ -285,23 +275,6 @@ section .canopy ul li {
 .padd_bordder_bottom {
   padding: 14px 0;
   border-bottom: 1px solid #efe1e6;
-}
-
-.langgrid {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  justify-content: baseline;
-  align-items: left;
-  background: #f7f7f9;
-  margin-top: 10px;
-  border-radius: 8px;
-  width: 303px;
-  height: 66.72px;
-}
-
-.langcontainer {
-  display: grid;
-  grid-template-columns: auto;
 }
 
 .gridcolumn {
@@ -317,11 +290,9 @@ section .canopy ul li {
 
 /* footer section */
 footer {
-  background-image: url(images/Contact\ me.jpg);
-  background-repeat: no-repeat;
+  background-color: #6070ff;
   max-width: 375px;
   padding-left: 2px;
-  height: 779px;
   border-top-left-radius: 70px;
 }
 
@@ -386,6 +357,12 @@ textarea {
 input[type=text] {
   margin-left: 1rem;
   width: 95%;
+  height: 48px;
+}
+
+input[type=email] {
+  height: 48px;
+  padding-bottom: 10px;
 }
 
 textarea {
@@ -403,13 +380,12 @@ textarea {
 }
 
 .divider {
+  padding: 2px;
   height: 3px;
   width: 33%;
-  margin-top: 6%;
+  margin: 6% 0 auto auto;
   background-color: #0e0f0f;
   border-radius: 10px;
-  margin-left: 33%;
-  margin-bottom: 1%;
 }
 
 @media (min-width: 378px) {
@@ -435,4 +411,54 @@ textarea {
     width: 90%;
     max-width: 90%;
   }
+}
+
+.mygrid {
+  display: grid;
+  grid-template-columns: 8fr 1fr;
+  width: 290px;
+  padding: 14px 4px;
+  margin-bottom: 2rem;
+}
+
+.headlang {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  max-width: 100%;
+  align-items: center;
+  padding: 14px 0;
+  margin-bottom: 2rem;
+}
+
+.langcontainer {
+  display: grid;
+  grid-template-columns: auto;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.langgrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: start;
+  column-gap: 2rem;
+  background: #f7f7f9;
+  margin-top: 1.2rem;
+  border-radius: 8px;
+}
+
+li.langgrid p {
+  margin-left: 0;
+}
+
+.marginleft {
+  margin-left: 20px;
+}
+
+button[type=submit]:hover {
+  background-color: #6070ff;
+  color: #ebebff;
+  cursor: pointer;
 }
