@@ -1,36 +1,7 @@
 <a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
+  
+  <h3><b>My portfolio</b></h3>
 
 </div>
 
@@ -62,15 +33,14 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 [Portfolio] <a name="mobile version of the portfolio project"></a>
 
-> This is a mobile version of the portfolio project.
+>This is a mobile version of the portfolio project.
 
-**[Portfolio]** is a a project that is self as well as collaborated by Anold and Denyse.
+**[Portfolio]** Project contains more information about the author projects the other has done.
 
 ## 🛠 Built With <a name="HTML/CSS"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> This project was done using the html/css languages.
+This project is build using html and css.
 <!--
 <details>
   <summary>Client</summary>
@@ -97,15 +67,12 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-will be the desktop version of it
-- **[key_feature_2]**
-Fixing any existing bugs
-- **[key_feature_3]**
-deploy the portfolio project
-
+- **[Header Section]** 
+This section describes more about the author.
+- **[Work section]**
+Contains the works that the author has done so fsr.
+- **[contact form]**
+This is where the user is going to submit their information like name,email and will also have a chance to leave comments before they submit.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -121,14 +88,13 @@ deploy the portfolio project
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
-> A developer can use this project as a template and customise it to meet their needs.
-
-To get a local copy up and running, follow these steps.
+Bellow is how you may want to use this project
 
 ### Prerequisites
 
 In order to run this project you need:
+
+terminal and your favourite editor.
 
 <!--
 Example command:
@@ -142,34 +108,31 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:MPDADDY/portfolio.git
 ```
---->
-
 ### Install
 
 Install this project by: 
 cloning it to your local machine.
 using the command: [git clone] and pasting the link you you copied from github
 
-<!--
+
 Example command:
 
 ```sh
   cd my-project
   gem install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
-make sure you are in the right directory that contains your project.Run this command: 'code.'
+make sure you are in the right directory that contains your project.Run this command: 'code .'
 and the project will open in your favourite text editor.
 
 <!--
@@ -210,7 +173,7 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> This project was collaborated by Anold and denyse.
+> This project was collaborated by Anold and Denyse.
 
 👤 **Author1**
 
@@ -230,11 +193,12 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
+- [ ] **[Desktop version for the project]**
+It will be slightly different fromthe mobile version since the desktop viewport is wider than mobile viewport. 
 - [ ] **[new_feature_2]**
+This will be provided later.
 - [ ] **[new_feature_3]**
+This will be provided later.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,27 +208,20 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free start any issue on [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
+Comments and suggestions from readers will be highly appreciated.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank microverse and the collaborators of this project for your surport.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
