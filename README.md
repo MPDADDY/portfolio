@@ -1,9 +1,9 @@
-# portfolio
-This is a portfolio web page.
-
-
-
 <a name="readme-top"></a>
+<div align="center">
+  
+  <h3><b>My portfolio</b></h3>
+
+</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -31,36 +31,70 @@ This is a portfolio web page.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [portfolio] <a name="hello microverse project"></a
+# 📖 [Portfolio] <a name="mobile version of the portfolio project"></a>
 
-**[portfolio]** will be a project that will contain all of my projects  that I will do in future.
+>This is a mobile version of the portfolio project.
 
-## 🛠 Built With <a name="html/css"></a>
+**[Portfolio]** Project contains more information about the author projects the other has done.
 
+## 🛠 Built With <a name="HTML/CSS"></a>
 
+### Tech Stack <a name="tech-stack"></a>
+This project is build using html and css.
+<!--
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">html-css</a></li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
 
-
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+-->
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-- **[key_feature_1]**
-Project contains amobile version of header and after header section.
 
-
+- **[Header Section]** 
+This section describes more about the author.
+- **[Work section]**
+Contains the works that the author has done so fsr.
+- **[contact form]**
+This is where the user is going to submit their information like name,email and will also have a chance to leave comments before they submit.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+<!--
+## 🚀 Live Demo <a name="live-demo"></a>
 
+> Add a link to your deployed project.
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+--->
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+Bellow is how you may want to use this project
 
+### Prerequisites
+
+In order to run this project you need:
+
+terminal and your favourite editor.
 
 <!--
 Example command:
@@ -74,29 +108,64 @@ Example command:
 
 Clone this repository to your desired folder:
 
-<!--
+
 Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:MPDADDY/portfolio.git
 ```
---->
-
 ### Install
 
+Install this project by: 
+cloning it to your local machine.
+using the command: [git clone] and pasting the link you you copied from github
 
+
+Example command:
+
+```sh
+  cd my-project
+  gem install
+```
 
 ### Usage
 
+To run the project, execute the following command:
+make sure you are in the right directory that contains your project.Run this command: 'code .'
+and the project will open in your favourite text editor.
 
+<!--
+Example command:
 
+```sh
+  rails server
+```
+--->
+<!-->
 ### Run tests
 
+To run tests, run the following command:
 
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
+<!-->
 ### Deployment
 
+You can deploy this project using:
 
+<!--
+Example:
+
+```sh
+
+```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,12 +173,19 @@ Example commands:
 
 ## 👥 Authors <a name="authors"></a>
 
+> This project was collaborated by Anold and Denyse.
 
 👤 **Author1**
 
-- GitHub: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
-- LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
-- Twitter: [@anoldmwawasi](https://github.com/MPDADDY)
+- GitHub: [@mpdaddy](https://github.com/MPDADDY)
+- Twitter: [@anoldmwawasi](https://twitter.com/anold_mwawasi)
+- LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi/)
+
+👤 **Author2**
+
+- GitHub: [@denigit5](https://github.com/denigit5)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,14 +193,12 @@ Example commands:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-
-- [ ] **[new_feature_1]**
-the is the first part that has been done
+- [ ] **[Desktop version for the project]**
+It will be slightly different fromthe mobile version since the desktop viewport is wider than mobile viewport. 
 - [ ] **[new_feature_2]**
-This will be communicated in the future
+This will be provided later.
 - [ ] **[new_feature_3]**
-A nice footer with links and copyright
+This will be provided later.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -134,30 +208,30 @@ A nice footer with links and copyright
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free start any issue on [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-This project is still under development. your ideas will be usefull to us.
-
+Comments and suggestions from readers will be highly appreciated.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank Microverse, code reviewers, standup team and other micronounts for your support. 
+I would like to thank microverse and the collaborators of this project for your surport.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- FAQ (optional) -->
 
+<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENCE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
