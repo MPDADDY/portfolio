@@ -25,6 +25,7 @@ body {
   overflow-x: hidden;
   overflow-y: scroll;
 }
+
 .desktopmenu {
   display: none;
 }
@@ -32,17 +33,12 @@ body {
 .header {
   background-color: white;
   border-bottom-left-radius: 4rem;
-  /*
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 2rem;*/
 }
 
 .headergrid {
   display: flex;
   flex-direction: row;
-  justify-content:space-between ;
+  justify-content: space-between;
   width: 95%;
   margin: auto;
   padding: 3rem 1rem;
@@ -462,7 +458,7 @@ button[type=submit]:hover {
   cursor: pointer;
 }
 
-/*tablate styling*/
+/* tablate styling */
 
 @media (min-width: 378px) {
   .intro {
@@ -495,6 +491,7 @@ button[type=submit]:hover {
   .footer p {
     width: 100%;
   }
+
   #contact_form {
     width: 90%;
     margin: auto;
@@ -538,121 +535,122 @@ button[type=submit]:hover {
     align-items: center;
     gap: 4px;
   }
-
 }
 
-/*desktop styles*/
+/* desktop styles */
 
 @media (min-width: 768px) {
-/*header*/
-.inlineblock {
-  display: inline-block;
-}
+  /* header */
 
-.languages {
-  margin: 14px 5px 14px 5px;
-}
+  .inlineblock {
+    display: inline-block;
+  }
 
-.intro {
-  max-width: 70%;
-}
+  .languages {
+    margin: 14px 5px 14px 5px;
+  }
 
-.mobile {
-  display: none;
-}
+  .intro {
+    max-width: 70%;
+  }
 
-.desktop {
-  display: block;
-}
+  .mobile {
+    display: none;
+  }
 
-.desktopmenu {
-  display: flex;
-  flex-direction: row;
-  column-gap: 10px;
-}
+  .desktop {
+    display: block;
+  }
 
-.desktopmenu a {
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #344563;
-}
+  .desktopmenu {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+  }
 
-.desktopmenu li a:hover {
-  color: #396df2;
-}
+  .desktopmenu a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
 
-.bars {
-  display: none;
-}
-/*work sections*/
-.sections {
-  display: flex;
-  flex-direction: row;
-  column-gap: 3rem;
-  max-width: 80%;
-}
+  .desktopmenu li a:hover {
+    color: #396df2;
+  }
 
-.width {
-  width: 50%;
-}
+  .bars {
+    display: none;
+  }
 
-.reverse {
-flex-direction: row-reverse;
-}
+  /* work sections */
+  .sections {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3rem;
+    max-width: 80%;
+  }
 
-.scrnshot img {
-  width: 100%;
-}
+  .width {
+    width: 50%;
+  }
 
-.canopylist {
-  display: grid;
-  grid-template-columns: 8px auto;
-  align-items: center;
-  gap: 8px;
-}
+  .reverse {
+    flex-direction: row-reverse;
+  }
 
-/*About myself section*/
-.aboutmyself {
-  max-width: 80%;
-  margin: auto;
-  display: grid;
-  grid-template-columns: auto auto;
-  justify-content: first baseline;
-}
+  .scrnshot img {
+    width: 100%;
+  }
 
-.langcontainer {
-  grid-template-columns: auto auto auto;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  gap: 20px;
-  text-align: center;
-}
+  .canopylist {
+    display: grid;
+    grid-template-columns: 8px auto;
+    align-items: center;
+    gap: 8px;
+  }
 
-.langgrid {
-  grid-template-columns: auto;
-  justify-content: center;
-  align-items: center;
-}
+  /* About myself section */
+  .aboutmyself {
+    max-width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: first baseline;
+  }
 
-.langcontainer li {
-  margin-right: 4px;
-  padding: 12px;
-}
+  .langcontainer {
+    grid-template-columns: auto auto auto;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    gap: 20px;
+    text-align: center;
+  }
 
-.marginleft {
-  margin-left: auto;
-}
+  .langgrid {
+    grid-template-columns: auto;
+    justify-content: center;
+    align-items: center;
+  }
 
-.mygrid {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-bottom: 0;
-  padding: 6px 4px;*/
-}
+  .langcontainer li {
+    margin-right: 4px;
+    padding: 12px;
+  }
 
-  /*contact me section*/
+  .marginleft {
+    margin-left: auto;
+  }
+
+  .mygrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 6px 4px;
+  }
+
+  /* contact me section */
 
   footer {
     background-repeat: no-repeat;
