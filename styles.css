@@ -7,6 +7,10 @@
   transition: 300ms ease-out;
 }
 
+.borderbottom {
+  border-bottom: 1px solid #dfe1e6;
+}
+
 .desktop {
   display: none;
 }
@@ -32,7 +36,6 @@ body {
 
 .header {
   background-color: white;
-  border-bottom-left-radius: 4rem;
 }
 
 .headergrid {
@@ -461,11 +464,17 @@ button[type=submit]:hover {
 /* tablate styling */
 
 @media (min-width: 378px) {
+  .header {
+    background-size: cover;
+  }
+
   .intro {
-    margin-top: 3rem;
-    width: 90%;
-    max-width: 90%;
-    background-image: none;
+    background-image: url(images/head\ shapes-desktop.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 100%;
+    background-size: contain;
+    background-position-x: center;
   }
 
   .languages {
@@ -473,9 +482,6 @@ button[type=submit]:hover {
   }
 
   footer {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(images/footer\ shapes.png);
     width: 100%;
     max-width: 100%;
   }
@@ -498,7 +504,7 @@ button[type=submit]:hover {
   }
 
   .footer {
-    background-image: none;
+    background-image: url(images/footer-background-desktop.png);
     max-width: 80%;
     margin: auto;
     text-align: center;
@@ -542,6 +548,13 @@ button[type=submit]:hover {
 @media (min-width: 768px) {
   /* header */
 
+  .intro {
+    background-image: url(images/head\ shapes-desktop.png);
+    background-size: 1000px;
+    max-width: 100%;
+    padding-top: 4rem;
+  }
+
   .inlineblock {
     display: inline-block;
   }
@@ -550,8 +563,9 @@ button[type=submit]:hover {
     margin: 14px 5px 14px 5px;
   }
 
-  .intro {
-    max-width: 70%;
+  .myintroduction {
+    max-width: 65%;
+    margin: auto auto 3rem auto;
   }
 
   .mobile {
@@ -621,8 +635,7 @@ button[type=submit]:hover {
 
   .langcontainer {
     grid-template-columns: auto auto auto;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
+    max-width: 600px;
     gap: 20px;
     text-align: center;
   }
@@ -653,14 +666,12 @@ button[type=submit]:hover {
   /* contact me section */
 
   footer {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(images/footer\ shapes.png);
     width: 100%;
     max-width: 100%;
   }
 
   .footer {
+    background-image: url(images/footer-background-desktop.png);
     width: 80%;
   }
 

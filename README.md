@@ -193,8 +193,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Desktop version for the project]**
-It will be slightly different fromthe mobile version since the desktop viewport is wider than mobile viewport. 
+- [ ] **[animations]**
+Transition will be added to some elements to create some animation. 
 - [ ] **[new_feature_2]**
 This will be provided later.
 - [ ] **[new_feature_3]**
