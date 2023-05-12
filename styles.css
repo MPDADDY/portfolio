@@ -166,9 +166,14 @@ section ul li:first-child {
   margin-bottom: 1rem;
 }
 
-li span img {
-  background-color: #7a869a;
-  color: #7a869a;
+.canopylist img {
+  color: #c1c7d0;
+  border-radius: 50%;
+  background-color: #c1c7d0;
+}
+
+.canopylist span img {
+  opacity: 0.2;
 }
 
 .text {
@@ -184,12 +189,6 @@ section .canopy ul li {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
-}
-
-.canopylist img {
-  color: #c1c7d0;
-  border-radius: 50%;
-  background-color: #c1c7d0;
 }
 
 .colorh2 {
@@ -427,8 +426,7 @@ textarea {
 
 .headlang {
   display: grid;
-  grid-template-columns: 3fr 1fr;
-  max-width: 100%;
+  width: 100%;
   align-items: center;
   padding: 14px 0;
   margin-bottom: 2rem;
@@ -482,6 +480,15 @@ button[type=submit]:hover {
     background-size: contain;
     background-position-x: center;
     padding-bottom: 6rem;
+  }
+
+  .mygrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding: 6px 4px;
+    width: 100%;
   }
 
   .languages {
@@ -559,7 +566,9 @@ button[type=submit]:hover {
     background-image: url(images/head\ shapes-desktop.png);
     background-size: 1000px;
     max-width: 100%;
+    height: auto;
     padding-top: 4rem;
+    padding-bottom: 8rem;
   }
 
   .inlineblock {
@@ -572,7 +581,8 @@ button[type=submit]:hover {
 
   .myintroduction {
     max-width: 60%;
-    margin: auto auto 3rem auto;
+    margin: auto auto 0 auto;
+    padding-bottom: 3rem;
   }
 
   .mobile {
@@ -635,13 +645,13 @@ button[type=submit]:hover {
   .aboutmyself {
     max-width: 80%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
   }
 
   .langcontainer {
     grid-template-columns: auto auto auto;
-    max-width: 400px;
+    max-width: 60%;
     gap: 20px;
     text-align: center;
   }
@@ -649,7 +659,8 @@ button[type=submit]:hover {
   .langgrid {
     grid-template-columns: auto;
     justify-content: center;
-    align-items: center;
+    width: 100px;
+    gap: 0;
   }
 
   .langcontainer li {
@@ -667,7 +678,7 @@ button[type=submit]:hover {
     justify-content: space-between;
     margin-bottom: 0;
     padding: 6px 4px;
-    width: 400px;
+    width: 100%;
   }
 
   .headlang {
