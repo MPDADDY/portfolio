@@ -186,6 +186,12 @@ section .canopy ul li {
   color: #7a869a;
 }
 
+.canopylist img {
+  color: #c1c7d0;
+  border-radius: 50%;
+  background-color: #c1c7d0;
+}
+
 .colorh2 {
   font-style: normal;
   color: #172b4d;
@@ -475,6 +481,7 @@ button[type=submit]:hover {
     max-width: 100%;
     background-size: contain;
     background-position-x: center;
+    padding-bottom: 6rem;
   }
 
   .languages {
@@ -564,7 +571,7 @@ button[type=submit]:hover {
   }
 
   .myintroduction {
-    max-width: 65%;
+    max-width: 60%;
     margin: auto auto 3rem auto;
   }
 
@@ -628,14 +635,13 @@ button[type=submit]:hover {
   .aboutmyself {
     max-width: 80%;
     margin: auto;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: first baseline;
+    display: flex;
+    justify-content: space-between;
   }
 
   .langcontainer {
     grid-template-columns: auto auto auto;
-    max-width: 600px;
+    max-width: 400px;
     gap: 20px;
     text-align: center;
   }
@@ -661,6 +667,12 @@ button[type=submit]:hover {
     justify-content: space-between;
     margin-bottom: 0;
     padding: 6px 4px;
+    width: 400px;
+  }
+
+  .headlang {
+    margin-top: 0;
+    padding-top: 0;
   }
 
   /* contact me section */
