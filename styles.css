@@ -4,7 +4,7 @@
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
-  /*transition: 300ms ease-out;*/
+  transition: 300ms ease-out;
 }
 
 .borderbottom {
@@ -59,12 +59,7 @@ body {
 
 .logo {
   transform: rotate(360deg);
-  transition-duration: 0.8s;
-}
-
-.logo a:hover {
-  font-size: 20px;
-  color:  #2539e9;
+  transition-duration: 3s;
 }
 
 .humberger i {
@@ -275,6 +270,11 @@ section .canopy ul li {
   letter-spacing: 0.03em;
   padding: 12px;
   border-radius: 8px;
+}
+
+.logo a:hover {
+  font-size: 20px;
+  color: #2539e9;
 }
 
 #what_i_do {
@@ -624,6 +624,7 @@ button[type=submit]:hover {
 
   .desktopmenu li a:hover {
     color: #396df2;
+    font-size: 20px;
   }
 
   .bars {
