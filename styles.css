@@ -54,6 +54,12 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  transition: color 2s, font-size 0.8s;
+}
+
+.logo a:hover {
+  font-size: 20px;
+  color:  #2539e9;
 }
 
 .humberger i {
