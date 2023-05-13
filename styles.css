@@ -4,7 +4,7 @@
   list-style-type: none;
   text-decoration: none;
   box-sizing: border-box;
-  transition: 300ms ease-out;
+  /*transition: 300ms ease-out;*/
 }
 
 .borderbottom {
@@ -54,7 +54,12 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  transition: color 2s, font-size 0.8s;
+  width: 100%;
+}
+
+.logo {
+  transform: rotate(360deg);
+  transition-duration: 0.8s;
 }
 
 .logo a:hover {
@@ -443,6 +448,11 @@ textarea {
   grid-template-columns: auto;
   margin-left: 0;
   padding-left: 0;
+}
+
+.langcontainer li:hover {
+  transform: scale(1.4, 1.4);
+  transform-origin: left;
 }
 
 .langgrid {
