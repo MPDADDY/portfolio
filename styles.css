@@ -54,6 +54,12 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
+  width: 100%;
+}
+
+.logo {
+  transform: rotate(360deg);
+  transition-duration: 3s;
 }
 
 .humberger i {
@@ -266,6 +272,11 @@ section .canopy ul li {
   border-radius: 8px;
 }
 
+.logo a:hover {
+  font-size: 20px;
+  color: #2539e9;
+}
+
 #what_i_do {
   margin-top: 3rem;
 }
@@ -439,6 +450,11 @@ textarea {
   padding-left: 0;
 }
 
+.langcontainer li:hover {
+  transform: scale(1.4, 1.4);
+  transform-origin: left;
+}
+
 .langgrid {
   width: 100%;
   display: grid;
@@ -608,6 +624,7 @@ button[type=submit]:hover {
 
   .desktopmenu li a:hover {
     color: #396df2;
+    font-size: 20px;
   }
 
   .bars {
