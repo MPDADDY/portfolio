@@ -157,9 +157,10 @@ Example command:
 
 ### Deployment
 
-This project has been deployed.Here is the link 
+- GitHub: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
+- LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
+- Twitter: [@anoldmwawasi](https://github.com/MPDADDY)
 
-- GitHub: [myportfolio](https://mpdaddy.github.io/portfolio/)
 
 <!--
 Example:
