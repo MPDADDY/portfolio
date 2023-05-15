@@ -157,9 +157,8 @@ Example command:
 
 ### Deployment
 
-- GitHub: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
-- LinkedIn: [anoldmwawasi](https://www.linkedin.com/in/anold-mwawasi)
-- Twitter: [@anoldmwawasi](https://github.com/MPDADDY)
+- click [my portfolio](https://mpdaddy.github.io/portfolio/) for the deployed site.
+
 
 
 <!--
