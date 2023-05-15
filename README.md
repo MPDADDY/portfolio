@@ -158,7 +158,7 @@ Example command:
 ### Deployment
 
 This project has been deployed.Here is the link 
-(https://mpdaddy.github.io/portfolio/)
+- GitHub: [@mpdaddy](https://mpdaddy.github.io/portfolio/)
 
 <!--
 Example:
