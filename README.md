@@ -154,10 +154,11 @@ Example command:
   bin/rails test test/models/article_test.rb
 ```
 --->
-<!-->
+
 ### Deployment
 
-You can deploy this project using:
+This project has been deployed.Here is the link 
+(https://mpdaddy.github.io/portfolio/)
 
 <!--
 Example:
