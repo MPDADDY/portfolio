@@ -5,6 +5,7 @@
   text-decoration: none;
   box-sizing: border-box;
   transition: 300ms ease-out;
+  scroll-behavior:smooth;
 }
 
 .borderbottom {
@@ -67,6 +68,11 @@ body {
   font-size: 18px;
   line-height: 20px;
   font-weight: 700;
+}
+
+.humberger > i:hover {
+ cursor: pointer;
+ font-size: 23px;
 }
 
 .intro {
