@@ -26,8 +26,9 @@
   position: absolute;
   width: 100%;
   background-color: #6070ff;
+  opacity: 0.9;
   height: 100%;
-  padding-top: 3rem;
+  padding-top: 1rem;
   display: none;
 }
 
@@ -127,9 +128,9 @@ section .canopy ul li {
 
 .humberger {
   position: absolute;
-  top: 2rem;
-  right: 2rem;
-  padding: 4px;
+  top: 2px;
+  right: 1.6rem;
+  padding: 0 4px 4px 4px;
 }
 
 .humberger i,
@@ -144,6 +145,14 @@ section .canopy ul li {
 
 #cross {
   display: none;
+  font-weight: 400;
+  color: #fff;
+  outline: none;
+  font-size: 40px;
+}
+
+#cross:hover {
+  cursor: pointer;
 }
 
 ul.mobile {
@@ -159,7 +168,7 @@ ul.mobile {
 
 .cross {
   position: absolute;
-  top: 2rem;
+  top: 0;
   right: 2rem;
 }
 
@@ -167,7 +176,7 @@ ul.mobile {
 .moblile1 {
   position: absolute;
   background: black;
-  width: 200px;
+  width: 33.33%;
   padding: 2px;
   height: 3px;
   margin: auto;
@@ -706,6 +715,14 @@ button[type=submit]:hover {
     padding-bottom: 8rem;
   }
 
+  #myMobileMain {
+    display: none;
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+
   .inlineblock {
     display: inline-block;
   }
@@ -718,6 +735,10 @@ button[type=submit]:hover {
     max-width: 60%;
     margin: auto auto 0 auto;
     padding-bottom: 3rem;
+  }
+
+  #humberger {
+    display: none;
   }
 
   .mobile {
