@@ -5,11 +5,113 @@
   text-decoration: none;
   box-sizing: border-box;
   transition: 300ms ease-out;
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
+}
+
+/* mobile menu */
+.mobile_menu {
+  position: absolute;
+  width: 100%;
+  background-color: #6070ff;
+  height: 100%;
+  padding-top: 3rem;
+}
+
+.mobile_menu ul {
+  padding-top: 5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.margin-top {
+  margin-top: 2rem;
+}
+
+.mobile_menu ul li {
+  width: 100%;
+  margin: auto;
+}
+
+.mobile_menu ul li > a {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: block;
+  color: #fff;
+  width: 100%;
+  padding: 8px 2rem;
+}
+
+.mobile_menu ul li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #2539e9;
+}
+
+/* togle menu */
+#toggle_menus {
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.humberger {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  padding: 4px;
+}
+
+.humberger i,
+.cross > i {
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+/* js id manipulated*************************'****** */
+#humberger {
+  display: none;
+}
+
+#cross {
+  display: inline-block;
+}
+
+ul.mobile {
+  display: block;
+}
+
+/* end of js id manipulated************************** */
+.humberger > i:hover,
+.cross > i:hover {
+  cursor: pointer;
+  font-size: 23px;
+}
+
+.cross {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+/* divider in mobile */
+.moblile1 {
+  position: absolute;
+  background: black;
+  width: 200px;
+  padding: 2px;
+  height: 3px;
+  margin: auto;
+  border-radius: 10px;
+  bottom: 5px;
+  left: 35%;
 }
 
 .borderbottom {
-  border-bottom: 1px solid #dfe1e6;
+  border-bottom: 30px solid #dfe1e6;
 }
 
 .desktop {
@@ -61,18 +163,6 @@ body {
 .logo {
   transform: rotate(360deg);
   transition-duration: 3s;
-}
-
-.humberger i {
-  color: #6070ff;
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 700;
-}
-
-.humberger > i:hover {
- cursor: pointer;
- font-size: 23px;
 }
 
 .intro {
@@ -492,6 +582,17 @@ button[type=submit]:hover {
 @media (min-width: 378px) {
   .header {
     background-size: cover;
+  }
+
+  .mobile_menu {
+    display: none;
+  }
+
+  .humberger i {
+    color: #6070ff;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
   }
 
   .intro {
