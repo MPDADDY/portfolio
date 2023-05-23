@@ -28,7 +28,12 @@
   background-color: #6070ff;
   height: 100%;
   padding-top: 3rem;
-  display:none
+  display: none;
+}
+
+section ul {
+  display: flex;
+  flex-direction: row;
 }
 
 .mobile_menu ul {
@@ -38,12 +43,40 @@
   flex-direction: column;
 }
 
-.mobile_menu ul li a {
-  background-color: !important transparent;
+.logo a {
+  color: #6070ff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.getresume a,
+.seeproject a {
+  display: block;
+  border: 1px solid #396df2;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding: 12px;
+  border-radius: 8px;
 }
 
 .margin-top {
   margin-top: 2rem;
+}
+
+section ul li {
+  padding: 1rem 1.2rem;
+  font-size: 27px;
 }
 
 .mobile_menu ul li {
@@ -60,6 +93,24 @@
   color: #fff;
   width: 100%;
   padding: 8px 2rem;
+  background-color: transparent;
+}
+
+section ul li:first-child {
+  padding-left: 0;
+}
+
+section .canopy ul li {
+  font-weight: 600;
+  padding: 0 14px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.langcontainer li:hover {
+  transform: scale(1.4, 1.4);
+  transform-origin: left;
 }
 
 .mobile_menu ul li:hover {
@@ -92,8 +143,9 @@
 /* js id manipulated*************************'****** */
 
 #cross {
-  display:none
+  display: none;
 }
+
 ul.mobile {
   display: none;
 }
@@ -162,16 +214,6 @@ body {
   width: 95%;
   margin: auto;
   padding: 3rem 1rem;
-}
-
-.logo a {
-  color: #6070ff;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 20px;
-  width: 100%;
 }
 
 .logo {
@@ -246,20 +288,6 @@ section article h1 {
   color: #172b4d;
 }
 
-section ul {
-  display: flex;
-  flex-direction: row;
-}
-
-section ul li {
-  padding: 1rem 1.2rem;
-  font-size: 27px;
-}
-
-section ul li:first-child {
-  padding-left: 0;
-}
-
 .social {
   color: #505f79;
   font-size: 27px;
@@ -297,14 +325,6 @@ section ul li:first-child {
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-}
-
-section .canopy ul li {
-  font-weight: 600;
-  padding: 0 14px;
-  font-size: 13px;
-  line-height: 16px;
-  color: #7a869a;
 }
 
 .colorh2 {
@@ -363,23 +383,6 @@ section .canopy ul li {
 
 .marginright {
   margin-right: 4rem;
-}
-
-.getresume a,
-.seeproject a {
-  display: block;
-  border: 1px solid #396df2;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  padding: 12px;
-  border-radius: 8px;
 }
 
 .logo a:hover {
@@ -558,11 +561,6 @@ textarea {
   grid-template-columns: auto;
   margin-left: 0;
   padding-left: 0;
-}
-
-.langcontainer li:hover {
-  transform: scale(1.4, 1.4);
-  transform-origin: left;
 }
 
 .langgrid {
