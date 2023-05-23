@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles.css">
     <title>Portfolio</title>
+    <!--google icons link-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!--fontawsome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--my fonts-->
@@ -16,28 +18,48 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body><!--mobile menu-->
+    <!--hmbger-->
+    <div id="mainMObileMenu" class="mobile_menu">
+            <div class="humberger bars margin-top">
+                <i id="humberger" class="fa fa-bars"></i>
+                <!--<img id="cross" src="images/close.png" alt="">-->
+                <span id="cross">&times;</span>
+            </div>
+    <ul id="mobile_menu" class="mobile">
+        <li>
+            <a href="#portfolio">Portfolio</a>
+        </li>
+        <li>
+            <a href="#aboutme">About</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    </div>
     <header class="header">
         <div class="headergrid">
             <div class="logo">
                 <a href="index.html">My Logo</a>
             </div>
             <nav>
+                <!--desktop menu-->
                 <ul class="desktopmenu">
                     <li>
-                        <a href="#">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="">ABout</a>
+                        <a href="#aboutme">ABout</a>
                     </li>
                     <li>
-                        <a href="#">contact</a>
+                        <a href="#contact">contact</a>
                     </li>
                 </ul>
-                <div class="humberger bars">
-                    <i class="fa fa-bars"></i>
-                </div>
             </nav>
+        </div>
+        <div class="myMobileMain">
+            <i id="myMobileMain" class="fa fa-bars mobile_icon_menu"></i>
         </div>
     </header>
     <section class="intro">
@@ -79,7 +101,7 @@
         </article>
     </section>
 
-    <section class="work_section">
+    <section id="portfolio" class="work_section">
         <article class="sections">
             <div class="scrnshot width">
                 <img class="mobile" src="images/Snapshoot Portfolio (2).png" alt="">
@@ -319,7 +341,7 @@
         <!---contact me article-->
 
         <footer>
-            <section class="footer">
+            <section id="contact" class="footer">
                 <h2>Contact me</h2>
                 <p>If you have an application you are interested in developing, a feature that you need built or a
                     project that needs coding.
@@ -351,6 +373,7 @@
             </section>
         </footer>
     </section>
+    <script src="script.js"></script>
 </body>
 
 </html>
