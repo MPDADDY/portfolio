@@ -4,6 +4,7 @@ const workSection = document.getElementById('portfolio');
 const popup = document.getElementById('popup');
 const closePopUp = document.getElementById('closePopUp');
 const openpop = document.getElementsByClassName('openpop');
+const overlay = document.getElementById('overlay');
 /* const myarticles = document.querySelectorAll('.sections'); */
 const viewPortWidth = window.innerWidth;
 const allProjects = [
@@ -75,9 +76,11 @@ for (let i = 0; i < projects.length; i++) {
 /**  open pop */
 function openPopUp() {
   popup.style.display = 'block';
+  overlay.style.visibility = 'visible';
 }
 function closepopUp() {
   popup.style.display = 'none';
+  overlay.style.visibility = 'hidden';
 }
 closePopUp.addEventListener('click', closepopUp);
 openpop.addEventListener('click', openPopUp);

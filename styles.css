@@ -11,39 +11,75 @@
 /* popup window start */
 .popup {
   position: absolute;
-  transform: translate(-50 -50);
   display: none;
-  flex-direction: column;
   padding: 1rem 2rem;
   background-color: #fff;
   width: 100%;
   max-width: 600px;
+  z-index: 20;
+  border-radius: 10px;
+  transition: 300ms ease-in-out;
+  box-shadow: 5px 5px 5px  5px rgba(24, 23, 23, 0.5);
+}
+
+.popupFlex {
+  display: flex;
+  align-items: baseline;
+}
+
+.padtop {
+  padding-top: 10px;
+}
+
+article p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.popup p {
+  text-align: justify;
+  padding-top: 12px;
+}
+
+.popupAfterHeader {
+  display: flex;
+  flex-direction: row;
+  font-size: 18px;
+  justify-content: space-evenly;
+}
+
+.overlay {
+  background-color: rgba(12, 15, 15, 0.3);
+  position: absolute;
+  visibility: hidden;
+  transition: 300ms ease;
+  z-index: 5;
+  height: 100vh;
+  width: 100%;
+  pointer-events: none;
+}
+
+.popupOpen {
+  position: absolute;
+  display: flex;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  width: 100%;
   margin: auto;
   z-index: 20;
   border-radius: 10px;
   transition: 300ms ease-in-out;
 }
 
-/*
-.popupOpen {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 2rem;
-  background-color: #fff;
-  width: 100%;
-  margin: auto;
-  z-index: 20;
-  border-radius: 10px;
-  transform: scale(100);
-  transition: 300ms ease-in-out;
-} */
-
 .popupHeader {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
 }
 
 .popupHeader h2 {
@@ -64,20 +100,15 @@
   cursor: pointer;
 }
 
-.popupFlex {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-bottom: 1rem;
-}
-
 .margin10 {
   margin-right: 10px;
 }
 
 .popupFlex img {
+  display: inline-block;
   opacity: 0.4;
   border-radius: 20%;
+  padding-right: 10px;
 }
 
 /* popup window end */
@@ -346,14 +377,6 @@ body {
 }
 
 /* general styling */
-article p {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-}
-
 article h4 {
   font-style: normal;
   font-weight: 500;
