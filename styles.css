@@ -48,7 +48,7 @@ article p {
   display: flex;
   flex-direction: row;
   font-size: 18px;
-  justify-content: space-evenly;
+  justify-content: flex-start;
 }
 
 .overlay {
