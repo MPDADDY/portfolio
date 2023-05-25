@@ -24,7 +24,6 @@ const allProjects = [
 const mobileImg = allProjects[0]['featured image'].mobileImages;
 const desktopImg = allProjects[0]['featured image'].desktopImages;
 
-// eslint-disable-next-line no-plusplus
 for (let i = 0; i < projects.length; i++) {
   const fetch = document.getElementById('portfolio').innerHTML;
 

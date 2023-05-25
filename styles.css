@@ -9,17 +9,25 @@
 }
 
 /* popup window start */
-.popup {
+.absolute {
   position: absolute;
+}
+
+.popup {
+  box-sizing: border-box;
   display: none;
   padding: 1rem 2rem;
   background-color: #fff;
-  width: 100%;
+  width: 300;
   max-width: 600px;
   z-index: 20;
   border-radius: 10px;
   transition: 300ms ease-in-out;
   box-shadow: 5px 5px 5px  5px rgba(24, 23, 23, 0.5);
+}
+
+.popupsec {
+  padding: 12px;
 }
 
 .popupFlex {
@@ -53,7 +61,6 @@ article p {
 
 .overlay {
   background-color: rgba(12, 15, 15, 0.3);
-  position: absolute;
   visibility: hidden;
   transition: 300ms ease;
   z-index: 5;
@@ -128,7 +135,6 @@ article p {
 }
 
 .mobile_menu {
-  position: absolute;
   width: 100%;
   background-color: #6070ff;
   pointer-events: all;
@@ -811,6 +817,10 @@ button[type=submit]:hover {
     height: auto;
     padding-top: 4rem;
     padding-bottom: 8rem;
+  }
+
+  .popup {
+    left: 25%;
   }
 
   #myMobileMain {
