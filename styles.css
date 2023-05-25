@@ -17,6 +17,7 @@
   padding: 1rem 2rem;
   background-color: #fff;
   width: 100%;
+  max-width: 600px;
   margin: auto;
   z-index: 20;
   border-radius: 10px;
