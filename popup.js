@@ -26,14 +26,7 @@ const desktopImg = allProjects[0]['featured image'].desktopImages;
 
 for (let i = 0; i < projects.length; i++) {
   const fetch = document.getElementById('portfolio').innerHTML;
-
-  if (viewPortWidth >= '768px') {
-    if (i % 2 === 0) {
-      workSection.classList.add('reverse');
-    }
-  }
-
-  workSection.innerHTML = `<article class="sections">
+  workSection.innerHTML = `<article class="sections reverse">
   <div class="scrnshot width">
       ${mobileImg[i]}
       ${desktopImg[i]}
