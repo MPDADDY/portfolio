@@ -15,10 +15,10 @@ form.addEventListener('input', () => {
   localStorage.setItem('formInputsData', JSON.stringify(formInputsData));
 });
 window.onload = () => {
-  const data = JSON.parse(localStorage.getItem('formInputData'));
+  const data = JSON.parse(localStorage.getItem('formInputsData'));
   if (data) {
-    userName.value = formInputsData.name;
-    email.value = formInputsData.email;
-    userMessage.value = formInputsData.message;
+    userName.value = data.name;
+    email.value = data.email;
+    userMessage.value = data.message;
   }
 };
