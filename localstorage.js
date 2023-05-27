@@ -21,16 +21,8 @@ window.onload = () => {
     email.value = data.email;
     userMessage.value = data.message;
   }
-}; 
-
-const userMessage = document.getElementById('comments');
-const form = document.getElementById('contact_form');
-
-const formInputsData = {
-  name: '',
-  email: '',
-  message: '',
 };
+
 form.addEventListener('input', () => {
   formInputsData.name = userName.value;
   formInputsData.email = email.value;
@@ -45,4 +37,3 @@ window.onload = () => {
     userMessage.value = data.message;
   }
 };
- 
